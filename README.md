@@ -1,7 +1,7 @@
 # srt-live-transmit_Server
 srt-live-transmit Server
 >Ich habe Encoder, bei denen SRT nicht komplett implementiert ist. So wird mir z.B. keine Möglichkeit gegeben, eine `streamid`einzugeben. Dadurch kann ich zu einem Port immer nur einen Stream senden.
->Dieser simpler Server bietet mir die Möglichkeit, einen SRT-Stream über einen Port zu empfangen, Informationen, wie die `streamid` zu ergänzen und dann an einen weiteren Server, z.B. einen `mediaMTX`-Server, weiterzuleiten.
+>Dieser simple Server bietet mir die Möglichkeit, einen SRT-Stream über einen Port zu empfangen, Informationen, wie die `streamid` zu ergänzen und dann an einen weiteren Server, z.B. einen `mediaMTX`-Server, weiterzuleiten.
 
 ```
 Encoder --> srt-live-transmit Server --> mediaMTX Server
